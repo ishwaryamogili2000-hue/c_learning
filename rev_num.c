@@ -10,7 +10,6 @@ int main()
         digit = num%10;
         rev = rev *10 +digit;
         num = num/10;
-        
     }
      printf("rev of num %d\n",rev);
    
